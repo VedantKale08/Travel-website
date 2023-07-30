@@ -10,7 +10,7 @@ function Footer() {
       >
         <div className="">
           <p className="text-[20px]">Travel</p>
-          <p className="pt-2 md:text-base text-xs text-gray-400 leading-relaxed w-[250px]">
+          <p className="pt-2 md:text-base text-xs text-gray-400 leading-relaxed w-[250px] md:w-[150px] md:mr-50px">
             Travel with us and explore the world without limits
           </p>
         </div>
