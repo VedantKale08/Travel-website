@@ -19,7 +19,7 @@ function Navbar() {
         <span className="text-[20px] font-bold md:pl-0 pl-4">Travel</span>
         <nav
           ref={navRef}
-          className="fixed top-0 left-0 h-screen w-screen text-[20px] backdrop-blur-md md:backdrop-blur-0 flex items-center justify-center flex-col gap-6 transition duration-[1s] -translate-y-[100vh] md:translate-y-0 md:relative md:flex-row  md:justify-end"
+          className="fixed top-0 left-0 h-screen w-screen text-[20px] bg-[rgb(0,0,0,0.8)] md:bg-transparent flex items-center justify-center flex-col gap-6 transition duration-[1s] -translate-y-[100vh] md:translate-y-0 md:relative md:flex-row  md:justify-end"
         >
           {nav.map((title, i) => (
             <Link
