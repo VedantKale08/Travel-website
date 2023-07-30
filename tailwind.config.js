@@ -13,6 +13,12 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    backgroundImage: {
+      "goa-image": "url('/public/assets/goa.jpg')",
+      "himalaya-image": "url('/public/assets/Himalaya.jpg')",
+      "gate-image": "url('/public/assets/gateOfIndia.jpg')",
+      "taj-image": "url('/public/assets/taj.jpg')",
+    },
   },
   plugins: [],
 }
